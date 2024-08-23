@@ -5,6 +5,7 @@
   <nav class="link">
     <router-link to="/micro-app-vue">Micro App Vue</router-link>
     <router-link to="/micro-app-svelte">Micro App Svelte</router-link>
+    <router-link to="/micro-app-dom7">Micro App dom7</router-link>
   </nav>
   <router-view />
 </template>

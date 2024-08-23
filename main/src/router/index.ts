@@ -34,6 +34,20 @@ export default createRouter({
           })
         }
       })
+    },
+    {
+      path: '/micro-app-dom7',
+      name: 'micro-app-dom7',
+      component: defineComponent({
+        render() {
+          return h('micro-app', {
+            name: 'micro-app-dom7',
+            iframe: true,
+            url: 'http://localhost:3003',
+            'keep-alive': true
+          })
+        }
+      })
     }
   ]
 });
